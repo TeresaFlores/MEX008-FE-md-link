@@ -1,3 +1,11 @@
+##Tareas
+###Leer archivos MD
+###Analizar archivos MD
+###Verificar Links
+###Reportar estadisticas
+![](imagenes/diagrama.png)
+
+
 # Markdown Links
 
 ## Índice
@@ -372,7 +380,7 @@ si tienes dudas existenciales con respecto a estas decisiones. No existe una
 
 ### General
 
-- [ ] Puede instalarse via `npm install --global <github-user>/md-links`
+- [x] Puede instalarse via `npm install --global <github-user>/md-links`
 
 ### `README.md`
 
