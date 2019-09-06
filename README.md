@@ -1,9 +1,48 @@
-##Tareas
-###Leer archivos MD
-###Analizar archivos MD
-###Verificar Links
-###Reportar estadisticas
+# Tareas a realizar 
+
+## Validar ruta
+-[] Verificar si la ruta no esta rota
+-[] Si es correcta continuar con el proceso
+-[] Si esta rota mostrar error (La ruta no es valida)
+
+## Verificar si la ruta es un archivo MD
+-[] Si es correcta continuar con el proceso
+-[] Si no es un MD mostra erro (Archivo no valido)
+
+## Leer el archivo
+-[] Usar readFileSync para leer el archivo
+
+## Alalizar los string que nos devuelve 
+-[]
+
+## Si no nos pide alguna opcion 
+- [] Mostrar los links
+- [] Ruta
+- [] Texto 
+
+## Si solicita la opcion --Validate
+- [] Hacer la peticion HTTP
+- [] Mostrar ok
+- [] Mostrar Fail
+
+## Si solicita la opcion --Stats
+- [] Mostrar estadisticas
+- [] Total
+- [] Unico
+
+## Si solicita la opción --Validate --States
+- [] Mostrar estadisticas
+- [] Total
+- [] Unico
+- [] Broken
+
+# Diagrama de flujo
+
 ![](imagenes/diagrama.png)
+
+# Guía de uso e instalación de la librería
+
+* 
 
 
 # Markdown Links

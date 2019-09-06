@@ -1,4 +1,8 @@
 #!/usr/bin/env node
-const prueba= require("./index")
 
-prueba()
+
+const prueba = require("./index.js");
+
+
+prueba();
+ 
