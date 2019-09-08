@@ -45,51 +45,51 @@ consideración en peculiaridades del lenguaje, convenciones y buenas prácticas.
 
 ## 4. ¿QUÉ ES md-tere?
 Es una librería que te permite identificar los links de un archivo `Markdown`, verlo enlistados en tu consola. Cada  link y contiene las siguientes propiedades:
-      href: URL encontrada.
-      text: Texto que aparecía dentro del link (<a>).
-      file: Ruta del archivo donde se encontró el link. 
+* `href `: URL encontrada.
+* `text`: Texto que aparecía dentro del link (<a>).
+* `file`: Ruta del archivo donde se encontró el link. 
 
 ## 5. Instalación 
 Deberas tener instalado  [Node.js](https://nodejs.org/) y por lo tanto npm. Dirigite a tu terminal, posicionate en la carpeta que deseas utilizar  y coloca el siguiente comando: 
-        nmp install md-tere 
+nmp install md-tere 
 o lo puedes hacer de manera global con npm install -g md-tere.
 
 ## 6. Forma de uso
-Una vez instalado puedes colocarte en la carpeta y colocar en la terminal :  md-tere <ruta del archivo> y enter. 
+Una vez instalado puedes colocarte en la carpeta y colocar en la terminal :  md-tere < ruta del archivo > y enter. 
 Ejemplo: md-tere README.md
 
 ## 7. Plan de acción 
 
-### Tareas a realizar 
+## Tareas a realizar 
 
-#### Validar ruta
--[x] Verificar si la ruta no esta rota
--[x] Si es correcta continuar con el proceso
--[x] Si esta rota mostrar error (La ruta no es valida)
+### Validar ruta
+- [x] Verificar si la ruta no esta rota
+- [x] Si es correcta continuar con el proceso
+- [x] Si esta rota mostrar error (La ruta no es valida)
 
-#### Verificar si la ruta es un archivo MD
--[x] Si es correcta continuar con el proceso
--[x] Si no es un MD mostra erro (Archivo no valido)
+### Verificar si la ruta es un archivo MD
+- [x] Si es correcta continuar con el proceso
+- [x] Si no es un MD mostra erro (Archivo no valido)
 
-#### Leer el archivo
--[x] Usar readFileSync para leer el archivo
+### Leer el archivo
+- [x] Usar readFileSync para leer el archivo
 
-#### Si no, nos pide alguna opcion 
+### Si no, nos pide alguna opcion 
 - [x] Mostrar los links
 - [x] Ruta
 - [x] Texto 
 
-#### Si solicita la opcion --Validate
+### Si solicita la opcion --Validate
 - [ ] Hacer la peticion HTTP
 - [ ] Mostrar ok
 - [ ] Mostrar Fail
 
-#### Si solicita la opcion --Stats
+### Si solicita la opcion --Stats
 - [ ] Mostrar estadisticas
 - [ ] Total
 - [ ] Unico
 
-#### Si solicita la opción --Validate --States
+### Si solicita la opción --Validate --States
 - [ ] Mostrar estadisticas
 - [ ] Total
 - [ ] Unico
