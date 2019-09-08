@@ -4,10 +4,10 @@ const read= (rutaArchivo) => {
     return new Promise ((resolve, reject) => {
         fs.readFile(rutaArchivo,'utf8', (error,data) => {
             if (error) {
-                console.log("NO ES UN ARCHIVO VALIDO");
+                // console.log("NO PODEMOS LEER EL ARCHIVO. NO VALIDO");
                 reject(error);
             } else {
-                // console.log(data);
+                console.log(data);
                 console.log('TU ARCHIVO ES VALIDO')
                 resolve(data);
             }

@@ -22,12 +22,9 @@ const path = require('path');
 // };
 
 
-const mdPath=( read) => {
-   if ( path.extname(read) === '.md') {
+const mdPath=(path) => {
+    path.extname(path) === '.md' ? true : false
        
-   }
-    console.log("esta funcionando")
-
 };
 
 module.exports = mdPath;
