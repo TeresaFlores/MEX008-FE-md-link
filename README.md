@@ -43,14 +43,14 @@ desarrollador porque que te obliga a pensar en la interfaz (API) de tus
 _módulos_ y cómo será usado por otros developers. Debes tener especial
 consideración en peculiaridades del lenguaje, convenciones y buenas prácticas.
 
-## 4. ¿QUÉ ES md-tere?
-Es una librería que te permite identificar los links de un archivo `Markdown`, verlo enlistados en tu consola. Cada  link y contiene las siguientes propiedades:
+## 4. ¿Qué es  md-tere?
+Es una librería que te permite identificar los links de un archivo `Markdown`, verlos enlistados en tu consola. Cada  link y contiene las siguientes propiedades:
 * `href `: URL encontrada.
 * `text`: Texto que aparecía dentro del link (<a>).
 * `file`: Ruta del archivo donde se encontró el link. 
 
 ## 5. Instalación 
-Deberas tener instalado  [Node.js](https://nodejs.org/) y por lo tanto npm. Dirigite a tu terminal, posicionate en la carpeta que deseas utilizar  y coloca el siguiente comando: 
+Deberás tener instalado  [Node.js](https://nodejs.org/) y por lo tanto npm. Dirígite a tu terminal, posicionate en la carpeta que deseas utilizar  y coloca el siguiente comando: 
 nmp install md-tere 
 o lo puedes hacer de manera global con npm install -g md-tere.
 

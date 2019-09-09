@@ -22,9 +22,8 @@ const path = require('path');
 // };
 
 
-const mdPath=(path) => {
-    path.extname(path) === '.md' ? true : false
-       
+const mdPath=(url) => {
+    return path.extname(url) === '.md' ? true : false
 };
 
 module.exports = mdPath;

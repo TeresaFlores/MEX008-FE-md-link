@@ -7,7 +7,7 @@ const read= (rutaArchivo) => {
                 // console.log("NO PODEMOS LEER EL ARCHIVO. NO VALIDO");
                 reject(error);
             } else {
-                console.log(data);
+               // console.log(data);
                 console.log('TU ARCHIVO ES VALIDO')
                 resolve(data);
             }
@@ -17,12 +17,3 @@ const read= (rutaArchivo) => {
 };
 
 module.exports=read;
-
-// const readSync= (rutaArchivo) => {
-//         try {
-//             const readRoutes = fs.readFileSync(rutaArchivo,'utf8');
-//             return readRoutes;
-//         }catch (err) {
-//             throw err;
-//         }
-// };
